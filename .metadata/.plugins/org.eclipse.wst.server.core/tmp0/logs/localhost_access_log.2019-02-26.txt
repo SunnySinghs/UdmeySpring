@@ -1,0 +1,12 @@
+127.0.0.1 - - [26/Feb/2019:22:57:15 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:22:57:18 +0530] "GET /spring-securtiy-demo/ HTTP/1.1" 200 355
+127.0.0.1 - - [26/Feb/2019:23:26:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:28 +0530] "GET /spring-securtiy-demo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:29 +0530] "GET /spring-securtiy-demo/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:29 +0530] "GET /spring-securtiy-demo/login HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:31 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:46 +0530] "POST /spring-securtiy-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:47 +0530] "GET /spring-securtiy-demo/ HTTP/1.1" 200 355
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:27:59 +0530] "GET /spring-securtiy-demo/login HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:28:02 +0530] "POST /spring-securtiy-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2019:23:28:02 +0530] "GET /spring-securtiy-demo/login?error HTTP/1.1" 200 664

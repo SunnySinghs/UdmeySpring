@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\Micro-Services\spring-cloud-config-server"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\Micro-Services\spring-config-cloud-server"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\Micro-Services\spring-cloud-config-servers"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\Micro-Services\limits-service"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\restful-web-services"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\spring-security-demo-starter\spring-security-demo-01-base-app"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\spring-crm-rest-demo"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\spring-rest-demo"/>
+			<item value="C:\Users\Sourabh\Downloads\Udmey Spring Projects Sources\jackson-databinding-json-demo"/>
+			<item value="C:\Users\Sourabh\Downloads\spring-boot-app"/>
+			<item value="C:\Users\Sourabh\Downloads\employee-app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,33 @@
+package com.sourabh.hibernate.demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.sourabh.hibernate.demo.entity.Student;
+
+public class UpdateStudentDemo {
+
+	public static void main(String[] args) {
+		
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class).buildSessionFactory();
+		
+		Session session = factory.getCurrentSession();
+		try {
+			session.beginTransaction();
+			Student tempStudent = session.get(Student.class, 4);
+			
+			tempStudent.setFirstName("Test");
+			tempStudent.setLastName("Kumar");
+			
+			session.createQuery("update Student set email = 'foo@gmail.com' where firstName = 'Tame'").executeUpdate();
+			session.getTransaction().commit();
+			System.out.println("Retrieveing Student:"+tempStudent);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			factory.close();
+		}					
+	}
+
+}
